@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Cards by-@SurajRane</title>
+    <style>
+        h1{
+            background-color:rgb(148, 135, 222);
+            text-align: center;
+            box-sizing: content-box;
+        }
+        .card-outer-body{
+            border: 1px solid rgba(0, 0, 0, 0.066);
+            width: 400px;
+            border-radius: 15px;
+            padding: 10px;
+            align-content: center;
+        }
+        .card-outer-body:hover{
+            background-color: rgba(228, 223, 245, 0.39);
+        }
+        .card-image{
+            border-radius: 15px;
+        }
+        .card-caption{
+            font-weight: bold;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 17px;
+        }
+        .column {
+            float: left;
+            width: 25%;
+            padding:30px;
+        }
+        span{
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #discount{
+            color: rgb(114, 114, 250);
+            font-weight: bold;
+        }
+        #price{
+            padding: 10px;
+            font-weight: bold;
+            text-decoration: line-through;
+            color: silver;
+        }
+        #offer{
+            padding: 5px;
+            background-color: rgb(104, 244, 165);
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="card-outer-body">
+                <div class="card-image">
+                    <img src="Webdevelopment.jpg" alt="Webdevelopment Course Card" width="400px">
+                </div>
+                <div class="card-caption">
+                    <h3>Web Development Master Course @dot Batch</h3>
+                    <hr>
+                </div>
+                <div class="card-price">
+                    <span id="discount">&#8377;4500</span>
+                    <span id="price">&#8377;6999</span>
+                    <span id="offer">42% off</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-outer-body">
+                <div class="card-image">
+                    <img src="DSA.jpg" alt="Data Structure and Algorithm" width="400px">
+                </div>
+                <div class="card-caption">
+                    <h3>Data Structures & Algorithms Master Course</h3>
+                    <hr>
+                </div>
+                <div class="card-price">
+                    <span id="discount">&#8377;3500</span>
+                    <span id="price">&#8377;6999</span>
+                    <span id="offer">50% off</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-outer-body">
+                <div class="card-image">
+                    <img src="oop.jpg" alt="OOP Course" width="400px">
+                </div>
+                <div class="card-caption">
+                    <h3>Cracking Object Oriented Design Interviews</h3>
+                    <hr>
+                </div>
+                <div class="card-price">
+                    <span id="discount">&#8377;800</span>
+                    <span id="price">&#8377;1999</span>
+                    <span id="offer">40% off</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card-outer-body">
+                <div class="card-image">
+                    <img src="recursion.jpg" alt="OOP Course" width="400px">
+                </div>
+                <div class="card-caption">
+                    <h3>Master Course on Recursion and Backtracking</h3>
+                    <hr>
+                </div>
+                <div class="card-price">
+                    <span id="discount">&#8377;Free</span>
+                    <span id="price">&#8377;2799</span>
+                    <span id="offer">100% off</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
